@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Post from "./Post";
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
         />
       </div>
 
-      <h1>
-        InstaClone
-      </h1>
+      <h1>InstaClone</h1>
 
-      {/* Posts */}
-      {/* Posts */}
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
